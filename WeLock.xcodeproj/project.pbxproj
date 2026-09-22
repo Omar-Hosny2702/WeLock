@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* WeLockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* WeLockApp.swift */; };
+		A10000010000000000000002 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* Models.swift */; };
+		A10000010000000000000003 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* Persistence.swift */; };
+		A10000010000000000000004 /* AppDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* AppDiscovery.swift */; };
+		A10000010000000000000005 /* Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* Authentication.swift */; };
+		A10000010000000000000006 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* NotificationManager.swift */; };
+		A10000010000000000000007 /* WindowShield.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* WindowShield.swift */; };
+		A10000010000000000000008 /* ProtectionCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* ProtectionCoordinator.swift */; };
+		A10000010000000000000009 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* SettingsView.swift */; };
+		A1000001000000000000000A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2000001000000000000000A /* Assets.xcassets */; };
+		A1000001000000000000000B /* WeLockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30000010000000000000001 /* WeLockTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40000010000000000000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50000010000000000000001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A60000010000000000000001;
+			remoteInfo = WeLock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* WeLockApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeLockApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* AppDiscovery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDiscovery.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* Authentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Authentication.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* NotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* WindowShield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowShield.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* ProtectionCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtectionCoordinator.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* SettingsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2000001000000000000000A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2000001000000000000000B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2000001000000000000000C /* WeLock.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeLock.entitlements; sourceTree = "<group>"; };
+		A2000001000000000000000D /* WeLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30000010000000000000001 /* WeLockTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeLockTests.swift; sourceTree = "<group>"; };
+		A30000010000000000000002 /* WeLockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeLockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70000010000000000000001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A70000010000000000000002 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A80000010000000000000002 /* WeLock */,
+				A80000010000000000000003 /* WeLockTests */,
+				A80000010000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80000010000000000000002 /* WeLock */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* WeLockApp.swift */,
+				A20000010000000000000002 /* Models.swift */,
+				A20000010000000000000003 /* Persistence.swift */,
+				A20000010000000000000004 /* AppDiscovery.swift */,
+				A20000010000000000000005 /* Authentication.swift */,
+				A20000010000000000000006 /* NotificationManager.swift */,
+				A20000010000000000000007 /* WindowShield.swift */,
+				A20000010000000000000008 /* ProtectionCoordinator.swift */,
+				A20000010000000000000009 /* SettingsView.swift */,
+				A2000001000000000000000A /* Assets.xcassets */,
+				A2000001000000000000000B /* Info.plist */,
+				A2000001000000000000000C /* WeLock.entitlements */,
+			);
+			path = WeLock;
+			sourceTree = "<group>";
+		};
+		A80000010000000000000003 /* WeLockTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* WeLockTests.swift */,
+			);
+			path = WeLockTests;
+			sourceTree = "<group>";
+		};
+		A80000010000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2000001000000000000000D /* WeLock.app */,
+				A30000010000000000000002 /* WeLockTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* WeLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000010000000000000001 /* Build configuration list for PBXNativeTarget "WeLock" */;
+			buildPhases = (
+				A70000010000000000000003 /* Sources */,
+				A70000010000000000000001 /* Frameworks */,
+				A70000010000000000000004 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = ();
+			name = WeLock;
+			productName = WeLock;
+			productReference = A2000001000000000000000D /* WeLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A60000010000000000000002 /* WeLockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0000010000000000000002 /* Build configuration list for PBXNativeTarget "WeLockTests" */;
+			buildPhases = (
+				A70000010000000000000005 /* Sources */,
+				A70000010000000000000002 /* Frameworks */,
+				A70000010000000000000006 /* Resources */,
+			);
+			buildRules = ();
+			dependencies = (
+				A90000010000000000000001 /* PBXTargetDependency */,
+			);
+			name = WeLockTests;
+			productName = WeLockTests;
+			productReference = A30000010000000000000002 /* WeLockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					A60000010000000000000001 = { CreatedOnToolsVersion = 16.0; };
+					A60000010000000000000002 = { CreatedOnToolsVersion = 16.0; TestTargetID = A60000010000000000000001; };
+				};
+			};
+			buildConfigurationList = AA0000010000000000000003 /* Build configuration list for PBXProject "WeLock" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (en, Base,);
+			mainGroup = A80000010000000000000001;
+			productRefGroup = A80000010000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* WeLock */,
+				A60000010000000000000002 /* WeLockTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000010000000000000004 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (A1000001000000000000000A /* Assets.xcassets in Resources */,); runOnlyForDeploymentPostprocessing = 0; };
+		A70000010000000000000006 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000010000000000000003 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			A10000010000000000000001 /* WeLockApp.swift in Sources */,
+			A10000010000000000000002 /* Models.swift in Sources */,
+			A10000010000000000000003 /* Persistence.swift in Sources */,
+			A10000010000000000000004 /* AppDiscovery.swift in Sources */,
+			A10000010000000000000005 /* Authentication.swift in Sources */,
+			A10000010000000000000006 /* NotificationManager.swift in Sources */,
+			A10000010000000000000007 /* WindowShield.swift in Sources */,
+			A10000010000000000000008 /* ProtectionCoordinator.swift in Sources */,
+			A10000010000000000000009 /* SettingsView.swift in Sources */,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		A70000010000000000000005 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A1000001000000000000000B /* WeLockTests.swift in Sources */,); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A90000010000000000000001 /* PBXTargetDependency */ = {isa = PBXTargetDependency; target = A60000010000000000000001 /* WeLock */; targetProxy = A40000010000000000000001 /* PBXContainerItemProxy */; };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AB0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AB0000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = WeLock/WeLock.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeLock/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarhosny.WeLock;
+				PRODUCT_NAME = WeLock;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		AB0000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				CODE_SIGN_ENTITLEMENTS = WeLock/WeLock.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WeLock/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarhosny.WeLock;
+				PRODUCT_NAME = WeLock;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		AB0000010000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarhosny.WeLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeLock.app/Contents/MacOS/WeLock";
+			};
+			name = Debug;
+		};
+		AB0000010000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.omarhosny.WeLockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeLock.app/Contents/MacOS/WeLock";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0000010000000000000001 /* Build configuration list for PBXNativeTarget "WeLock" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000010000000000000003, AB0000010000000000000004,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000010000000000000002 /* Build configuration list for PBXNativeTarget "WeLockTests" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000010000000000000005, AB0000010000000000000006,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA0000010000000000000003 /* Build configuration list for PBXProject "WeLock" */ = {isa = XCConfigurationList; buildConfigurations = (AB0000010000000000000001, AB0000010000000000000002,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A50000010000000000000001 /* Project object */;
+}
